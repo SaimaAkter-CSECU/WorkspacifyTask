@@ -1,0 +1,11 @@
+.v-picker__title{
+    display: none; 
+}
+.rental-card{
+    border-radius: 0 !important;
+    border-color: rgb(209, 209, 209) !important; 
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.rental-card:last-child{
+    border-bottom: 1px solid transparent !important;
+}

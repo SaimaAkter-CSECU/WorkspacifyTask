@@ -1,8 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
+import vuetify from './plugins/vuetify'
+
+import {Chart} from 'chart.js'
+import Chartkick from 'vue-chartkick'
+// import VCalendar from 'v-calendar';
+
+Vue.use(Chartkick.use(Chart));
+
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  vuetify,
+  render: h => h(App)
 }).$mount('#app')
