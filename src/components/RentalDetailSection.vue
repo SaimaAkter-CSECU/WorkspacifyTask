@@ -33,7 +33,8 @@
                                             <v-col
                                                 cols="12"
                                                 xs="12"
-                                                sm="2"
+                                                sm="4"
+                                                md="2"
                                             >
                                                 <v-img
                                                     
@@ -44,7 +45,8 @@
                                             <v-col
                                                 cols="12"
                                                 xs="12"
-                                                sm="2"
+                                                sm="8"
+                                                md="2"
                                             >
                                                 <div class="text-h6 font-weight-medium pb-2">
                                                     {{i.carName}}
@@ -59,7 +61,8 @@
                                             <v-col
                                                 cols="12"
                                                 xs="12"
-                                                sm="4"
+                                                sm="7"
+                                                md="4"
                                             >
                                                 <div class="text-subtitle-2 font-weight-light pb-2">
                                                     {{i.status}}
@@ -76,7 +79,8 @@
                                             <v-col
                                                 cols="12"
                                                 xs="12"
-                                                sm="4"
+                                                sm="5"
+                                                md="4"
                                                 class="text-right"
                                             >
                                                 <div class="text-h6 font-weight-normal pb-3">

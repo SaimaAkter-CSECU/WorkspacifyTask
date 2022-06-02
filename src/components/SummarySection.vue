@@ -6,8 +6,8 @@
            <v-col
                 v-for="item in total_summary_item" :key="item.i"
                 cols="12"
-                xs="6"
-                sm="3"
+                xs="12"
+                sm="6"
                 md="3"
             > 
                 <v-card
